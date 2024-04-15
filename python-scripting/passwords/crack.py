@@ -21,4 +21,11 @@ def bruteforce(guesspasswordlist, actual_password_hash):
             print("Ooooops-popsi! your password is:", guess_password,
                   "\n please change ur password, bro")
             exit()
-            
+
+#url
+url = 'https://raw.githubusercontent.com/berzerk0/Probable-Wordlists/master/Real-Passwords/Top12Thousand-probable-v2.txt'
+actual_password = 'henry'
+actual_password_hash = hash(actual_password)
+ 
+wordlist = readlist(url).decode('UTF-8')
+guesspasswordlist = wordlist.split('\n')
