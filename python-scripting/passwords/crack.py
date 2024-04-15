@@ -29,3 +29,9 @@ actual_password_hash = hash(actual_password)
  
 wordlist = readlist(url).decode('UTF-8')
 guesspasswordlist = wordlist.split('\n')
+
+#call the function 
+bruteforce(guesspasswordlist, actual_password_hash)
+
+#if not found
+print("Wel well well... I couldn't crack your password...")
