@@ -1,0 +1,4 @@
+first notes
+Windows can be expensive since the OS is paid license and majority of its applications are paid products.
+Windows has high computer resource requirement like it should have high ram capacity, a lot of hard drive space and good graphics card.
+Windows slows and hangs up if the user loads up many programs at the same time.
