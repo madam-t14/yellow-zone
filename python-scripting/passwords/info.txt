@@ -1,2 +1,8 @@
 Password cracking typically refers to the process of recovering scrambled passwords. It can be used to help a user get back a forgotten password or to help a system administrator check for weak passwords. But more often, password cracking is used by bad actors to gain unauthorized access to systems and resources. 
 
+
+attacks typically fall into two categories:
+
+Password guessing 
+Password cracking 
+Password guessing is an online technique where a bad actor uses various combinations of characters in a process of trial and error. In contrast, password cracking refers to an offline process where an attacker attempts to decipher plaintext passwords from their encrypted forms.
