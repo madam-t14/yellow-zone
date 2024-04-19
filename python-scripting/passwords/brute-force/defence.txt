@@ -1,0 +1,7 @@
+How to protect against brute force attacks
+Developers who manage authorization systems can take measures such as locking out IP addresses that have generated too many failed logins, and incorporating a delay in their password-checking software.
+
+Users of web services can decrease their vulnerability to brute force attacks by choosing longer, more complex passwords
+ It is also recommended to enable two-factor authentication and use unique passwords for each service.
+
+ Users should also avoid entering passwords or personal information such as credit card numbers or banking information with any web service that doesn’t protect their data with strong encryption keys.
