@@ -9,3 +9,5 @@ Blocking an IP address after it has attempted—and failed—to enter the correc
 Locking accounts after a certain number of unsuccessful login attempts 
 Imposing a time delay between attempts 
 Increasing the level of effort, like adding a CAPTCHA or adding multifactor authentication
+
+If the attacker was able to brute force a password, he will assume the password has been re-used and try the same combination of login credentials on other online services. This is known as credential stuffing and is very popular in the age of data breaches.
