@@ -1,0 +1,11 @@
+bad actors use automated scripts to try out possible passwords until the correct one works. Brute-force attacks can be very time consuming because they take a systematic approach to trying all possible permutations of characters in a sequence.
+ The longer the password, the longer it takes. 
+
+ Brute-force attacks are most successful when users have common or weak passwords.
+ Admins who want to defend against to these attacks have several options, including: 
+
+Limiting the number of times a password can be tried
+Blocking an IP address after it has attempted—and failed—to enter the correct password after a certain number of times
+Locking accounts after a certain number of unsuccessful login attempts 
+Imposing a time delay between attempts 
+Increasing the level of effort, like adding a CAPTCHA or adding multifactor authentication
