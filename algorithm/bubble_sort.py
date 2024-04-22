@@ -1,7 +1,7 @@
 """ Simple algorithm to sort things by swapping position using Bubble Sort Theorm
     Big-O complexity ==> O(n^2)
     What's this Algorith about ?
-    The algorithm is pretty simple: compare two items in an array that are next to each other.
+    - The algorithm is pretty simple: compare two items in an array that are next to each other.
       If they're out of order (that is, the larger one comes first in the array) swap them. 
       Then move forward one index, compare again, swap if needed, and continue to the next item in the array. 
       Once we've reached the end of the array, if we've swapped anything in the previous run through, 
