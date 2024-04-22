@@ -12,7 +12,7 @@
 
 def bubble_sort(nums):
 
-    print('Hello')
+    
     # #? Primary Idea
     # sorted  = False
     # count   =  0
