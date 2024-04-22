@@ -1,0 +1,19 @@
+Rate limiting is a technique used to control the number of requests or login attempts from a single IP address or user account within a specified time frame. This helps prevent rapid, automated attacks by slowing down the rate at which requests can be made.
+
+Key Features:
+Request Threshold:
+Specifies the maximum number of requests or login attempts allowed within a defined time period (e.g., 5 requests per minute).
+Time Frame:
+Defines the duration for which the request threshold is applicable (e.g., 1 minute, 24 hours).
+Response Actions:
+Specifies the action to be taken when the request threshold is exceeded, such as blocking further requests, delaying responses, or generating alerts.
+Benefits:
+Protection Against Automated Attacks:
+Limits the rate of malicious requests, reducing the effectiveness of automated attacks like brute-force and dictionary attacks.
+Improved System Performance:
+Reduces the load on servers by preventing excessive requests, improving overall system performance and stability.
+Considerations:
+Legitimate Traffic:
+Care should be taken not to block legitimate users or services that may generate high volumes of requests.
+Configuration:
+Properly configuring rate limiting rules is crucial to ensure effective protection without impacting legitimate users.
