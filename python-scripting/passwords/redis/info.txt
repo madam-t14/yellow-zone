@@ -1,0 +1,14 @@
+Redis:
+Redis (Remote Dictionary Server) is an open-source, in-memory data structure store that can be used as a database, cache, and message broker. It is known for its high performance, scalability, and support for various data structures like strings, hashes, lists, sets, and more.
+
+Features Relevant to Rate Limiting:
+Atomic Operations:
+Redis supports atomic operations, allowing you to increment and decrement counters atomically, which is essential for rate limiting.
+Expiration:
+Redis allows you to set an expiration time for keys, making it easier to implement time-based rate limiting.
+Persistence:
+Redis provides various persistence options to save data to disk, ensuring data durability and recovery in case of failures.
+Redis Commands for Rate Limiting:
+INCR key: Increments the counter for the specified key.
+EXPIRE key seconds: Sets an expiration time for the specified key.
+TTL key: Returns the remaining time to live of a key.
