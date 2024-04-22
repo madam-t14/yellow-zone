@@ -1,0 +1,15 @@
+Mitigating Dictionary Attacks:
+To protect against dictionary attacks, organizations can implement the following measures:
+
+Password Policies:
+Enforce strong password policies that require a combination of uppercase and lowercase letters, numbers, and special characters.
+Require users to choose passwords that are not common or easily guessable.
+Password Salting:
+Use password salting, where a unique, random value (salt) is added to each password before hashing.
+This ensures that even if two users have the same password, their hashed values will be different.
+Account Lockout:
+Implement account lockout policies that temporarily lock user accounts after a certain number of unsuccessful login attempts.
+Rate Limiting:
+Implement rate limiting on login attempts to prevent rapid, automated guessing of passwords.
+Multi-Factor Authentication (MFA):
+Require users to authenticate using multiple factors, such as something they know (password) and something they have (smartphone or hardware token).

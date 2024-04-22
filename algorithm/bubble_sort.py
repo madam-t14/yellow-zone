@@ -12,6 +12,7 @@
 
 def bubble_sort(nums):
 
+    print('Hello')
     # #? Primary Idea
     # sorted  = False
     # count   =  0
@@ -54,12 +55,7 @@ def bubble_sort(nums):
 
 
     
-# Example2
-# nums = ['World', 'Needs', 'Peace', 'Right ', 'Now' ]
 
-nums = [10,9,2,1,5,6,3,4,7]
+nums = [1,2,5,9,7,10,8,3,4,6]
 bubble_sort(nums)
-
-
-
-print('THis code is written by Team SSH')
+print(nums)

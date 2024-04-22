@@ -1,0 +1,9 @@
+Dictionary search attack: In this method, the attacker uses a list of commonly used words or phrases, also known as a dictionary, to guess the password. The attacker uses a software program that automatically tests each word in the dictionary list against the password field of the target account.
+Benefits:
+Faster than brute force attacks
+Can crack simple passwords
+Uses a pre-existing list of common passwords  
+Drawbacks:
+Limited to common passwords
+Ineffective against strong passwords
+Cannot crack passwords that are not in the dictionary
