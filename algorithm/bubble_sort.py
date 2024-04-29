@@ -62,4 +62,4 @@ bubble_sort(nums)
 
 
 
-print('THis code is written by Team SSH')
+print('THis code is written by Team')
